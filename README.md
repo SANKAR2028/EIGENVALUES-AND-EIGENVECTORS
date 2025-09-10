@@ -1,4 +1,9 @@
 # EIGENVALUES-AND-EIGENVECTORS
+```
+NAME: SANKAR S
+DEPT:B.E/CSE
+REG NO: 212224040291
+```
 ## Aim:
 To write a python program to find the Eigenvalues and Eigen Vectors
 ## Equipment’s required:
@@ -11,7 +16,13 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4: 
 
 ## Program:
-
+```
+import numpy as np
+matrix=np.array([[4,2],[2,4]])
+eigen_velues,eigen_vectors=np.linalg.eig(matrix)
+print("Eigen values are {} and Eigen Vectors are {}".format(eigen_velues,eigen_vectors))
+```
 ## Output:
+![alt text](<Screenshot 2025-09-10 103309.png>)
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
